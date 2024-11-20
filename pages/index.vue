@@ -59,7 +59,7 @@
                     200,
                     140,
                     25,
-                    '/_nuxt/public/2881137_254-ai-2.png'
+                    'https://x0u1tagseemx97ht.public.blob.vercel-storage.com/images/animated-form/2881137_254-ai-2-tAqjuTyaStUTYYJJXKFOK4zbB27775.png'
                   );
                   focusElement(1);
                 } else {
@@ -79,7 +79,7 @@
                     200,
                     140,
                     25,
-                    '/_nuxt/public/2881137_254-ai-2.png'
+                    'https://x0u1tagseemx97ht.public.blob.vercel-storage.com/images/animated-form/2881137_254-ai-2-tAqjuTyaStUTYYJJXKFOK4zbB27775.png'
                   );
                   focusElement(1);
                 } else {
@@ -116,7 +116,7 @@
                     200,
                     140,
                     25,
-                    '/_nuxt/public/2881137_254-ai-4.png'
+                    'https://x0u1tagseemx97ht.public.blob.vercel-storage.com/images/animated-form/2881137_254-ai-4-rJDCqy0b6xQ1vuSpUeNtvwl7Sl5b3n.png'
                   );
                   focusElement(2);
                 } else {
@@ -153,7 +153,7 @@
                     200,
                     140,
                     25,
-                    '/_nuxt/public/2881137_254-ai-5.png'
+                    'https://x0u1tagseemx97ht.public.blob.vercel-storage.com/images/animated-form/2881137_254-ai-5-hFIYH24PIR5fWzYHW3tZRQE7h70xw6.png'
                   );
                   focusElement(2);
                 } else {
@@ -195,7 +195,9 @@
 </template>
 
 <script setup lang="ts">
-  const imgLink = ref("/_nuxt/public/2881137_254-ai.png");
+  const imgLink = ref(
+    "https://x0u1tagseemx97ht.public.blob.vercel-storage.com/images/animated-form/2881137_254-ai-SC1qccfDFRp4bdtCm4VnknZ8TlBRqv.png"
+  );
   const { $anime } = useNuxtApp();
   const closeInitialPopup = ref(false);
   const speechBubble = ref("Hello and welcome to our website!");
@@ -389,7 +391,8 @@
   }
 
   function goToFinalPosition() {
-    imgLink.value = "/_nuxt/public/2881137_254-ai-2.png";
+    imgLink.value =
+      "https://x0u1tagseemx97ht.public.blob.vercel-storage.com/images/animated-form/2881137_254-ai-2-tAqjuTyaStUTYYJJXKFOK4zbB27775.png";
     $anime({
       targets: ".image",
       translateX: window.innerWidth * 0.45,
